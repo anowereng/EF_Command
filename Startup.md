@@ -8,4 +8,4 @@
 - when add a new column 
 ``` AddCategoryColumnToCoursesTable ```
 - when rename a column
-``RenameTitleToNameCoursesTable```
+```RenameTitleToNameCoursesTable```
