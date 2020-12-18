@@ -5,7 +5,7 @@
 ``` Add-Migration AddCategoryTypeColumnToDmoCategoryTable -context DemoContext ```
 - migrate file override
 ``` add-migration addcategoriestable -force ```
-when add a new column 
+- when add a new column 
 ``` AddCategoryColumnToCoursesTable ```
-when rename a column
+- when rename a column
 ``RenameTitleToNameCoursesTable```
