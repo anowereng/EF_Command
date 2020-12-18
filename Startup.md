@@ -1,11 +1,11 @@
-# EF_Command
 
-# Migration Name 
+# Migration basic command 
 
-```AddCategoriesTable
-add-migration addcategoriestable -force
-
+- multiple context 
+``` Add-Migration AddCategoryTypeColumnToDmoCategoryTable -context DemoContext ```
+- migrate file override
+``` add-migration addcategoriestable -force ```
 when add a new column 
-AddCategoryColumnToCoursesTable
-RenameTitleToNameCoursesTable
-```
+``` AddCategoryColumnToCoursesTable ```
+when rename a column
+``RenameTitleToNameCoursesTable```
